@@ -16,18 +16,23 @@
             margin-left: 0;
             margin-right: 0;
             font-weight: bold;
-            color: #C71585;
+            color: white;
             font-family: "Georgia", Times, serif;
         }
 
         h3 {
-            color: #C71585;
+            color: white;
             font-family: "Georgia", Times, serif;
             font-weight: bold;
         }
 
+        h4 {
+            color: white;
+            font-family: "Georgia", Times, serif;
+        }
+
         p {
-            color: #C71585;
+            color: white;
             text-indent: 30px;
             font-family: "Georgia", Times, serif;
         }
@@ -35,6 +40,15 @@
         .center {
             display: block;
             margin-left: auto;
+            margin-right: auto;
+        }
+
+        .lImage {
+            margin-left: 123px;
+            margin-right: auto;
+        }
+        .rImage {
+            margin-left: 0px;
             margin-right: auto;
         }
     </style>
@@ -48,7 +62,8 @@
                     <a href="#home" class="w3-bar-item w3-button "><b>Out Of Sync</b> Games</a>
                     <!-- Float links to the right. Hide them on small screens -->
                     <div class="w3-right w3-hide-small">
-                        <a href="#projects" class="w3-bar-item w3-button">Projects</a>
+                        <a href="#DiceGame" class="w3-bar-item w3-button">Dice Game</a>
+                        <a href="#Members" class="w3-bar-item w3-button">Members</a>
                         <a href="https://bsky.app/profile/outofsyncgames.bsky.social" class="w3-bar-item w3-button">BlueSky</a>
                         <a href="https://www.youtube.com/@OutofSyncGames" class="w3-bar-item w3-button">YouTube</a>
                         <a href="https://www.instagram.com/outofsyncgames/" class="w3-bar-item w3-button">Instagram</a>
@@ -60,31 +75,43 @@
                 <img class="center" src="Images/DiceStudioLogo.png" style="padding-top: 68px; padding-right: 2px" alt="Stuff" width="300" height="350">
             </header>
             <header class="w3-display-container w3-content w3-wide" style="max-width: 2000px; padding-bottom: 200px; padding-left: 200px " id="home">
-                <div class="w3-display-middle w3-margin-top w3-center">
+                <div class="w3-display-middle w3-margin-top w3-center"  id="DiceGame">
                     <h1 class="w3-xxlarge w3-text-2019-soybean"> <span class="w3-hide-small w3-text-light-gray">Welcome to the Out Of Sync Games Website</span></h1>
                     <h1 class="w3-xxlarge w3-text-2019-soybean"> <span class="w3-hide-small w3-text-light-gray"></span></h1>
                 </div>
             </header>
         </div>
-        <div class=" w3-animate-bottom">
+        <div class=" w3-animate-bottom" >
             <!-- Page content -->
-            <div class="w3-content w3-padding w3-2019-evening-blue" style="max-width:1564px">
+            <div class="w3-content w3-padding  w3-2025-eclipse" style="max-width:1564px">
 
                 <!-- Project Section -->
-                <div class="w3-container w3-padding-1" id="projects">
-                    <h3 class="w3-border-bottom w3-padding-16"><b>Dice Game (Under Construction)</b></h3>
+                <div class="w3-container w3-padding-1">
+                    <h3 class="w3-border-bottom w3-padding-16"><b>Dice Game (Working Title)</b></h3>
                 </div>
                 <p>
                     Control a Ragtag group of D&D-Like Thieves in a tactical game taking on 1-shot style adventures. Choose Thief Contracts from around the city from various Underground Bosses, Freedom Fighters and Fixers. Steal from wealthy barons, Prepare escape routes for other gangs, gather information on targets, assassinate guarded figures, and break into the most guarded places in the city.
                 </p>
+                <div>
+                    <h4 style="text-align: center; padding-top: 50px">Concept Art</h4>
+                </div>
+                <div>
+                    <img class="lImage" src="Images/Conceptcity.png" width="640" height="360">
+                    <img class="rImage" src="Images/Design.png" width="640" height="360">
+                    <img class="lImage" src="Images/Diagram.png" width="640" height="360">
+                    <img class="rImage" src="Images/Landscape.png" width="640" height="360">
+                    <img class="center" src="Images/Sewer.png" width="1280" height="720">
+                    <img class="center" src="Images/Robo.png" width="360" height="450">
+                </div>
+
             </div>
 
             <div class=" w3-animate-bottom">
                 <!-- Page content -->
-                <div class="w3-content w3-padding w3-2019-evening-blue" style="max-width:1564px">
+                <div class="w3-content w3-padding  w3-2025-eclipse" style="max-width:1564px" id="Members">
 
                     <!-- Project Section -->
-                    <div class="w3-container w3-padding-1" id="projects">
+                    <div class="w3-container w3-padding-1">
                         <h3 class="w3-border-bottom w3-padding-16"><b>Company Members</b></h3>
                     </div>
 
@@ -162,27 +189,27 @@
                             </div>
                         </div>
                         <!--
-    <div class="w3-col l3 m6 w3-margin-bottom">
-        <div class="w3-display-container">
-            <header style="text-align: center;"><h1>Alex Dicarlo</h1></header>
-            <a href="#contact">
-                <img src="Images/ProfileIcon.jpg" alt="House" style="padding-left: 65px; width: 70%">
-            </a>
-            <header style="text-align: center;">
-                <h3>Producer, Game Design, Level Design</h3>
-            </header>
-            <p style="text-align:justify">A game I developed on my own! I made this project to practice my level design and programming skills. I also practiced my playtesying and iteration.</p>
-            <button onclick="myFunction('Demo1')" class="w3-button w3-round-xxlarge w3-2019-soybean">Learn More</button>
-            <a href="https://grayaidan.itch.io/test" class="w3-button w3-round-xxlarge w3-2019-soybean">itch.io</a>
-            <div id="Demo1" class="w3-container w3-hide">
-                <h4>blah balh blah balh blah balhblah balh</h4>
-                <p>Some text..</p>
-            </div>
-        </div>
-    </div>
-    -->
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <header style="text-align: center;"><h1>Alex Dicarlo</h1></header>
+                    <a href="#contact">
+                        <img src="Images/ProfileIcon.jpg" alt="House" style="padding-left: 65px; width: 70%">
+                    </a>
+                    <header style="text-align: center;">
+                        <h3>Producer, Game Design, Level Design</h3>
+                    </header>
+                    <p style="text-align:justify">A game I developed on my own! I made this project to practice my level design and programming skills. I also practiced my playtesying and iteration.</p>
+                    <button onclick="myFunction('Demo1')" class="w3-button w3-round-xxlarge w3-2019-soybean">Learn More</button>
+                    <a href="https://grayaidan.itch.io/test" class="w3-button w3-round-xxlarge w3-2019-soybean">itch.io</a>
+                    <div id="Demo1" class="w3-container w3-hide">
+                        <h4>blah balh blah balh blah balhblah balh</h4>
+                        <p>Some text..</p>
                     </div>
-                    <div class="w3-row-padding"style="padding-top: 120px">
+                </div>
+            </div>
+            -->
+                    </div>
+                    <div class="w3-row-padding" style="padding-top: 120px">
                         <!--Cam section-->
                         <div class="w3-col l3 m6 w3-margin-bottom" style="column-rule-style: solid">
                             <div class="w3-display-container">
@@ -259,50 +286,72 @@
                     </div>
                 </div>
 
-                <!-- About Section
-                <div class="w3-animate-bottom">
+                <div class=" w3-animate-bottom">
+                    <!-- Page content -->
+                    <div class="w3-content w3-padding  w3-2025-eclipse" style="max-width:1564px">
 
-                    <div class="w3-container w3-padding-32" id="about">
-                        <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
+                        <!-- Project Section -->
+                        <div class="w3-container w3-padding-1">
+                            <h3 class="w3-border-bottom w3-padding-16"><b>About Us</b></h3>
+                        </div>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
-                            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat.
+                            Our company Out of Sync Studios is one that was started by college graduates from across Ontario with many completing Game Design related programs, We are committed to not only building games that we feel have been underrepresented in the games industry but also pushing back against many of the unhealthy practices of the industry currently with sparse crunch times and protected positions for our studio members by having ownership spread across all 7 members. All of the members of the studio are extremely passionate about the games industry and are hoping to create a stable environment where we can create games that players are excited to engage with and immerse themselves in the carefully constructed worlds built by people who love games themselves.
                         </p>
+
+                        <p>
+                            Many members of our studio have experience creating games in multiple engines throughout our school years, and with our capstone games being presented at Level Up in 2024, we all have experience following a project through all phases of production, from preproduction all the way to a finished build following proper pipelines. Multiple members of our studio also had their capstone game put up for awards, with 2 members winning the best student project at the Games for Change festival in New York.
+                        </p>
+
+                        <p>
+                            All of us at Out of Sync studios are committed to having an inclusive and safe working environment. We have multiple members of our studio who are an active part of the 2SLGTBQI+, including one of our co-producers. We have multiple plans set in place in a company charter to ensure that everyone in the studio is treated equally and that an open and safe workplace environment is promoted.
+                        </p>
+
                     </div>
-                </div>
 
+                    <!-- About Section
+        <div class="w3-animate-bottom">
 
-                <div class="w3-container w3-padding-32" id="contact">
-                    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
-                    <p>Lets get in touch and talk about your next project.</p>
-                    <form action="/action_page.php" target="_blank">
-                        <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-                        <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
-                        <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
-                        <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment">
-                        <button class="w3-button w3-black w3-section" type="submit">
-                            <i class="fa fa-paper-plane"></i> SEND MESSAGE
-                        </button>
-                    </form>
-                </div>
-                    -->
-
-                <script>
-                function myFunction(id) {
-                    var x = document.getElementById(id);
-                    if (x.className.indexOf("w3-show") == -1) {
-                        x.className += " w3-show";
-                    } else {
-                        x.className = x.className.replace(" w3-show", "");
-                    }
-                }
-                </script>
-
-                <!-- End page content -->
+            <div class="w3-container w3-padding-32" id="about">
+                <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                    laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
             </div>
+        </div>
 
-    </body>
+
+        <div class="w3-container w3-padding-32" id="contact">
+            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
+            <p>Lets get in touch and talk about your next project.</p>
+            <form action="/action_page.php" target="_blank">
+                <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+                <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
+                <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
+                <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment">
+                <button class="w3-button w3-black w3-section" type="submit">
+                    <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                </button>
+            </form>
+        </div>
+            -->
+
+                    <script>
+                        function myFunction(id) {
+                            var x = document.getElementById(id);
+                            if (x.className.indexOf("w3-show") == -1) {
+                                x.className += " w3-show";
+                            } else {
+                                x.className = x.className.replace(" w3-show", "");
+                            }
+                        }
+                    </script>
+
+                    <!-- End page content -->
+                </div>
+
+</body>
     <!-- Footer
     <footer class="w3-center w3-black w3-padding-16">
         <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
